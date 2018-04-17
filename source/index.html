@@ -4,7 +4,6 @@
 <head>
   <!-- Задаем кодировку для страницы -->
 	<meta charset="UTF-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <!-- SEO Задание тега Title -->
 	<title>Тестовое задание FanBox</title>
   <meta name="description" content="Тестовое задание FanBox на ваканстю-html верстальщика">
@@ -15,26 +14,32 @@
 <body class="inner-page">
   <section class="catalog">
     <h1 class="catalog__title">Ты сегодня покормил кота?</h1>
-    <ul class="catalog__list">
-      <li class="catalog__item">
-        <a href="catalog-item.html" class="catalog__link-card"></a>
-        <p class="catalog__item-note">Чего сидишь? Порадуй котэ, <a class="catalog__link-text" href="catalog-item.html">купи.</a></p>
+    <article class="catalog__list">
+      <article class="catalog__item">
+        <div class="catalog__item-card" tabindex="0">
+
+        </div>
+        <p class="catalog__item-note">Чего сидишь? Порадуй котэ, <button class="catalog__btn-text" type="button">купи.</button></p>
         <p class="catalog__item-note catalog__item-note--selected">Печень утки разварная с артишоками.</p>
         <p class="catalog__item-note catalog__item-note--disabled">Печалька, с фуа-гра закончился.</p>
-      </li>
-      <li class="catalog__item catalog__item--selected">
-        <a href="catalog-item.html" class="catalog__link-card"></a>
-        <p class="catalog__item-note">Чего сидишь? Порадуй котэ, <a class="catalog__link-text" href="catalog-item.html">купи.</a></p>
+      </article>
+      <article class="catalog__item catalog__item--selected">
+        <div class="catalog__item-card" tabindex="0">
+
+        </div>
+        <p class="catalog__item-note">Чего сидишь? Порадуй котэ, <button class="catalog__btn-text" type="button">купи.</button></p>
         <p class="catalog__item-note catalog__item-note--selected">Печень утки разварная с артишоками.</p>
         <p class="catalog__item-note catalog__item-note--disabled">Печалька, с фуа-гра закончился.</p>
-      </li>
-      <li class="catalog__item catalog__item--disabled">
-        <a href="catalog-item.html" class="catalog__link-card"></a>
-        <p class="catalog__item-note">Чего сидишь? Порадуй котэ, <a class="catalog__link-text" href="catalog-item.html">купи.</a></p>
+      </article>
+      <article class="catalog__item catalog__item--disabled">
+        <div class="catalog__item-card" tabindex="0">
+
+        </div>
+        <p class="catalog__item-note">Чего сидишь? Порадуй котэ, <button class="catalog__btn-text" type="button">купи.</button></p>
         <p class="catalog__item-note catalog__item-note--selected">Печень утки разварная с артишоками.</p>
         <p class="catalog__item-note catalog__item-note--disabled">Печалька, с фуа-гра закончился.</p>
-      </li>
-    </ul>
+      </article>
+    </article>
   </section>
 <!--
   <script src="js/scripts.min.js"></script> -->
