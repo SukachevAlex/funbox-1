@@ -65,13 +65,19 @@
   display: inline-flex;
 }
 
+.catalog__item-card:hover .card-product__weight,
+.catalog__item-card:focus .card-product__weight {
+  background-color: #2ea8e6;
+}
+
 .catalog__item-card--disabled .card-product__note,
 .catalog__item-card--disabled .card-product__title,
 .catalog__item-card--disabled .card-product__bonus  {
   color: #b3b3b3;
 }
 
-.catalog__item-card--disabled .card-product__weight {
+.catalog__item-card--disabled .card-product__weight,
+.catalog__item-card--disabled:focus .card-product__weight {
   background-color: #b3b3b3;
 }
 
@@ -87,11 +93,6 @@
 .catalog__item-card--selected:hover .card-product__note--focus,
 .catalog__item-card--selected:focus .card-product__note--focus {
   display: block;
-}
-
-.catalog__item-card:hover .card-product__weight,
-.catalog__item-card:focus .card-product__weight {
-  background-color: #2ea8e6;
 }
 
 .catalog__item-card--selected:hover .card-product__weight,
